@@ -1,3 +1,4 @@
+
 class Assignment:
     def __init__(self, assignment_id, due_date, course_id):
         self.assignment_id = assignment_id
@@ -13,3 +14,4 @@ class Submission:
         self.submission = content
         self.student_id = student_id
         self.grade = -1.0 # None
+
